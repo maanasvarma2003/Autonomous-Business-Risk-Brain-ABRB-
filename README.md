@@ -95,6 +95,34 @@ graph TD
 
 ---
 
+## 🚀 Getting Started
+
+**Clone & run:**
+```bash
+git clone https://github.com/maanasvarma2003/Autonomous-Business-Risk-Brain-ABRB-.git
+cd Autonomous-Business-Risk-Brain-ABRB-
+pip install -r requirements.txt
+```
+
+**Download datasets** (Kaggle; requires [Kaggle API](https://github.com/Kaggle/kaggle-api) configured):
+```bash
+py models/train_all.py   # Downloads datasets via kagglehub and trains all models
+```
+
+**Start API:**
+```bash
+$env:PYTHONPATH = "."; py -m uvicorn api.main:app --host 127.0.0.1 --port 8006
+```
+
+**Verify output:**
+```bash
+py display_production_output.py
+```
+
+*Note: Datasets are not in the repo (see `.gitignore`). Run `train_all.py` to download and train.*
+
+---
+
 ## 🔌 API Endpoints (Production Ready)
 
 ### 1. Unified Risk Scoring
