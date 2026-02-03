@@ -13,7 +13,6 @@ Modern enterprises face multiple high-impact risks every day—financial fraud, 
 
 > **This is a production-style, enterprise-grade system designed for high-accuracy risk intelligence.**
 
----
 
 ## 🎯 Problem Statement
 
@@ -30,7 +29,7 @@ ABRB introduces a unified AI-driven risk intelligence platform that:
 *   **Correlates** risks using graph-based "blast-radius" analysis.
 *   **Explains** the *why* behind every score using Explainable AI (SHAP) and LLM-driven reasoning.
 
----
+
 
 ## 🏗️ System Architecture
 
@@ -51,7 +50,7 @@ graph TD
     G --> H[REST APIs]
 ```
 
----
+
 
 ## 🔍 Risk Domains Covered
 
@@ -71,7 +70,6 @@ graph TD
 *   Identifies early signs of customer disengagement to enable proactive retention.
 *   Powered by high-precision **Gradient Boosting** models.
 
----
 
 ## 🧠 Core Technologies
 
@@ -82,7 +80,7 @@ graph TD
 *   **Inference:** Bayesian Risk Fusion for global score & confidence estimation.
 *   **MLOps:** Joblib for model persistence and feature state management.
 
----
+
 
 ## 📊 Datasets Used (Real-World Industrial Data)
 
@@ -93,7 +91,7 @@ graph TD
 | **Compliance** | GDPR Public Documents | Kaggle (jessemostipak/gdpr-violations) |
 | **Churn** | Telco Customer Churn | Kaggle (yeanzc/telco-customer-churn-ibm-dataset) |
 
----
+
 
 ## 🚀 Getting Started
 
@@ -121,7 +119,7 @@ py display_production_output.py
 
 *Note: Datasets are not in the repo (see `.gitignore`). Run `train_all.py` to download and train.*
 
----
+
 
 ## 🔌 API Endpoints (Production Ready)
 
@@ -134,7 +132,7 @@ py display_production_output.py
 `GET /risk/explain/{entity_id}`
 *   **Returns:** Natural language explanation of the risk profile, primary drivers, and graph-based context.
 
----
+
 
 ## 📈 Business Impact
 
@@ -146,7 +144,7 @@ py display_production_output.py
 | **Legal/Compliance** | Shift from checklist-based compliance to predictive violation prevention. |
 | **Product** | Reduced churn rates through high-precision disengagement prediction. |
 
----
+
 
 ## 🧪 Project Status & Quality
 
@@ -155,14 +153,4 @@ py display_production_output.py
 *   ✅ **APIs exposed** and verified with production display scripts.
 *   ✅ **Graph-Bayesian Fusion** engine functional.
 
----
 
-## 🧠 Why This Project Stands Out
-
-1.  **Cross-Domain Intelligence:** Unifies four massive enterprise risks into a single brain—a rare capability in standard AI projects.
-2.  **Predictive Accuracy:** Uses advanced sequence modeling (LSTM) and imbalance-aware XGBoost.
-3.  **Explainability:** Every score comes with a "Rationale," making AI transparent and trustworthy for non-technical stakeholders.
-4.  **Recruiter Note:** Designed as a **complete engineering ecosystem**, covering ingestion, engineering, modeling, fusion, and delivery via professional APIs.
-
----
-*Created by a Senior Principal Software Architect & Applied AI Engineer.*
